@@ -15,10 +15,17 @@ html {
 body {
   font-size: 16px;
   background: #121212 url('images/bg.svg')repeat;
-  background-size: 50px 50px;
+  background-size: 60px 60px;
   /* color: #fff; */
 }
 
+p,h2,h3{
+  background-image: linear-gradient(97.13deg,rgb(2333,233,233)0%,rgb(81,81,81)100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(0, 0, 0, 0);
+  
+}
 .container {
   width: 100%;
   max-width: 1440px;
