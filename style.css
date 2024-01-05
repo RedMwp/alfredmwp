@@ -223,7 +223,7 @@ nav ul a::before {
 }
 
 .min-foot {
-  padding: .5em 1em;
+  padding: 1em;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
