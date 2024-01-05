@@ -413,6 +413,10 @@ footer h2 {
   h2 {
     font-size: 1.2em;
   }
+  .projects{
+    flex-direction:column;
+    align-items: center;
+  }
 }
 
 @media (max-width:450px) {
@@ -475,17 +479,19 @@ footer h2 {
   }
 
 
-  .projects {
-    flex-direction: column;
-    padding: 5em 0;
-    align-items: center;
-  }
-
+  
   .project-item {
     width:90%;
-    max-width: 700px;
+    max-width: 400px;
     margin: 5% 0;
     min-height: 300px;
+    
+  }
+  .project-item img{
+    height: 200px;
+  }
+  .min-foot{
+    padding: 1em;
   }
 
   .intro p {
