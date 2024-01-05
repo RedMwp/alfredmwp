@@ -14,7 +14,8 @@ html {
 
 body {
   font-size: 16px;
-  background: #121212;
+  background: #121212 url('images/bg.svg')repeat;
+  background-size: 50px 50px;
   /* color: #fff; */
 }
 
@@ -34,13 +35,14 @@ nav {
   width: 100%;
   max-width: 1440px;
   margin: 0 auto;
-  font-size: .99rem;
+  font-size: 1.1rem;
   font-family: 'Courier New', Courier, monospace;
   position: relative;
 }
 
 nav a {
-  color: #979797
+  color: #979797;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 nav ul li a {
@@ -120,7 +122,7 @@ nav ul a::before {
   height: 40px;
   min-width: 150px;
   font-weight: 500;
-  background: #252525;
+  background: #161616;
   border: 1px solid #373737;
   font-size: 1.1em;
   letter-spacing: .5px;
@@ -134,7 +136,7 @@ nav ul a::before {
   height: 100px;
   margin: 5rem 0;
   overflow-x: hidden;
-  background: #252525;
+  background: #161616;
   border-top: 1px solid #373737;
   border-bottom: 1px solid #373737;
   
@@ -190,7 +192,7 @@ nav ul a::before {
   max-width: 400px;
   min-height: 440px;
   border: 1px solid #373737;
-  background: #252525;
+  background: #161616;
   margin: 5% 3%;
   border-radius: 3px;
 }
